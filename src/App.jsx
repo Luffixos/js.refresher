@@ -39,11 +39,12 @@ function App() {
         <section id="examples">
           <h2>Examples</h2>
           <menu>
-              <TabButton>Components</TabButton>
+              <TabButton onClick={}>Components</TabButton>
               <TabButton>Components</TabButton>
               <TabButton>Components</TabButton>
               <TabButton>Components</TabButton>
           </menu>      
+          Dynamic Content
         </section>
       </main>
     </div>
