@@ -5,6 +5,7 @@ import { CORE_CONCEPTS, EXAMPLES } from "./data";
 import Header from "./components/Header/Header.jsx";
 import CoreConcept from "./components/CoreConcept.jsx";
 import TabButton from "./components/TabButton.jsx";
+import List from "./components/List.jsx";
 
 function App() {
   const [selectedTopic, setSelectedTopic] = useState();
@@ -65,6 +66,7 @@ function App() {
             </div>
           ) : null}
         </section>
+        <List/>
       </main>
     </div>
   );
